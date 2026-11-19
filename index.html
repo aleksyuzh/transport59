@@ -1,0 +1,54 @@
+                                                                                                                                                                                                                                                                                                        <!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFFFFF">
+  <title>Расписание автобусов</title>
+  <link rel="stylesheet" href="./styles/schedule.css">
+</head>
+<body>
+  <main>
+    <header class="schedule-header">
+      <div>
+        <h1>Расписание автобусов</h1>
+        <p class="schedule-region">Пермский край</p>
+      </div>
+    </header>
+    <div class="field schedule-search">
+      <label id="route-filter-label" for="route-filter">Найти маршрут</label>
+      <div class="search-control">
+        <input id="route-filter" type="search" autocomplete="off" placeholder="" aria-controls="route-options" disabled>
+        <h2 id="selected-route" class="selected-route" hidden></h2>
+        <button id="clear-route" type="button" aria-label="Сбросить выбор маршрута" hidden>×</button>
+      </div>
+      <ul id="route-options" class="options" aria-label="Маршруты" hidden></ul>
+      <p id="route-status" role="status"></p>
+      <button id="retry-schedule" type="button" hidden>Повторить загрузку</button>
+    </div>
+    <section id="route-card" aria-labelledby="selected-route" hidden>
+      <p id="route-caution" class="route-caution" hidden></p>
+      <div id="route-directions" class="schedule-directions" role="group" aria-label="Направление" hidden></div>
+      <div class="schedule-sections">
+        <section id="departures" aria-label="Расписание">
+          <div id="departure-content" aria-live="polite"></div>
+        </section>
+        <section id="route-stops" aria-labelledby="stops-title">
+          <h3 id="stops-title">Остановки</h3>
+          <ol id="stop-list" class="schedule-stops" role="list"></ol>
+          <p id="stop-list-note" class="schedule-note"></p>
+          <p id="stop-status" class="schedule-note" role="status"></p>
+        </section>
+      </div>
+      <section class="schedule-map" aria-label="Карта маршрута">
+        <p id="stop-map-status" role="status"></p>
+        <div id="stop-map" tabindex="0" aria-label="Карта направления и остановок" hidden>
+          <button type="button" id="fit-route-map" hidden>Весь маршрут</button>
+        </div>
+      </section>
+    </section>
+    <noscript>Для просмотра расписания включите JavaScript.</noscript>
+  </main>
+  <script type="module" src="./src/schedule.js"></script>
+</body>
+</html>
