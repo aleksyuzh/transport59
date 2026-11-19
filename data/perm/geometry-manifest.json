@@ -1,0 +1,1384 @@
+{
+  "region": "perm-south",
+  "version": "0.1",
+  "fetchedAt": "2026-11-17T23:17:27.641Z",
+  "dataTimestamp": "2026-11-17",
+  "serviceDates": [
+    "2026-11-17"
+  ],
+  "dataTimestampMeaning": "Дата data-date из HTML карт сервиса. Дата последнего редактирования геометрии источником неизвестна.",
+  "status": "provider-unverified",
+  "operatorVerified": false,
+  "sources": [
+    {
+      "name": "Региональная транспортная схема",
+      "url": "https://bus-transport.ru/",
+      "mapUrl": "https://m.bus-transport.ru",
+      "listUrl": "https://m.bus-transport.ru/addresses/2/routes-list/4/",
+      "license": null,
+      "redistributionLicenseVerified": false,
+      "note": "Первичный публичный сервис поставщика. Открытая лицензия на базу не указана; подтверждение перевозчиком не получено."
+    }
+  ],
+  "coverage": {
+    "label": "Пригородные и межмуниципальные маршруты",
+    "complete": false,
+    "routeFeatures": 160,
+    "routeNumbers": 80,
+    "stops": 1604,
+    "requestedRouteNumbers": 145,
+    "selection": "Схемы явно сопоставленных записей полного реестра. Остальные записи доступны без геометрии."
+  },
+  "schedules": {
+    "available": false,
+    "verified": false,
+    "reason": "Этот импорт содержит только геометрию и упорядоченный ответ остановок. Времена и расписания не импортированы."
+  },
+  "routeMappings": [
+    {
+      "ref": "111",
+      "sourceRouteId": "S_111 2",
+      "providerName": "111, г. Пермь (АС Южная) - Мостовая",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_111%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_111%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_111-2-outbound",
+        "sapir-S_111-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_111-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_111-2.map.html"
+    },
+    {
+      "ref": "112",
+      "sourceRouteId": "S_112 2",
+      "providerName": "112, г. Пермь (АС \"\"Южная\"\") - кооп. \"\"Машиностроитель\"\" (Сезонный)",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_112%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_112%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_112-2-outbound",
+        "sapir-S_112-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_112-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_112-2.map.html"
+    },
+    {
+      "ref": "121",
+      "sourceRouteId": "S_121 2",
+      "providerName": "121, г. Пермь-с. Ст. Лобаново",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_121%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_121%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_121-2-outbound",
+        "sapir-S_121-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_121-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_121-2.map.html"
+    },
+    {
+      "ref": "148",
+      "sourceRouteId": "S_148 2",
+      "providerName": "148, п.Горный-г.Пермь (Комсомольская площадь)",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_148%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_148%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_148-2-outbound",
+        "sapir-S_148-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_148-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_148-2.map.html"
+    },
+    {
+      "ref": "341",
+      "sourceRouteId": "S_341 2",
+      "providerName": "341, ЗАТО Звездный -г. Пермь - ЗАТО Звездный",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_341%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_341%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_341-2-outbound",
+        "sapir-S_341-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_341-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_341-2.map.html"
+    },
+    {
+      "ref": "344",
+      "sourceRouteId": "S_344 2",
+      "providerName": "344, п. Юг - г. Пермь",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_344%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_344%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_344-2-outbound",
+        "sapir-S_344-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_344-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_344-2.map.html"
+    },
+    {
+      "ref": "377",
+      "sourceRouteId": "S_377 2",
+      "providerName": "377, Лобаново -г. Пермь (В. Муллы)",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_377%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_377%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_377-2-outbound",
+        "sapir-S_377-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_377-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_377-2.map.html"
+    },
+    {
+      "ref": "442а",
+      "sourceRouteId": "S_442А2",
+      "providerName": "442А, г. Пермь – п. Мулянка",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_442%D0%902",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_442%D0%902",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_442А2-outbound",
+        "sapir-S_442А2-inbound"
+      ],
+      "rawFile": "suburban-source/S_442А2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_442А2.map.html"
+    },
+    {
+      "ref": "443",
+      "sourceRouteId": "S_443 2",
+      "providerName": "443, г. Пермь (АС Южная) – п. Кукуштан",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_443%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_443%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_443-2-outbound",
+        "sapir-S_443-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_443-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_443-2.map.html"
+    },
+    {
+      "ref": "747",
+      "sourceRouteId": "S_747 2",
+      "providerName": "747, д. Кондратово - с. Курашим",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_747%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_747%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_747-2-outbound",
+        "sapir-S_747-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_747-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_747-2.map.html"
+    },
+    {
+      "ref": "823",
+      "sourceRouteId": "S_823 2",
+      "providerName": "823, Песьянка - Нефтяник",
+      "sourceUrl": "https://m.bus-transport.ru/map/S_823%202",
+      "sourceDataUrl": "https://m.bus-transport.ru/json/full-route/17.11.2026/S_823%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "sapir-S_823-2-outbound",
+        "sapir-S_823-2-inbound"
+      ],
+      "rawFile": "suburban-source/S_823-2.raw.json",
+      "mapHtmlFile": "../../files/transport-source-html/S_823-2.map.html"
+    },
+    {
+      "ref": "100",
+      "registryRegistrationNumber": "129п",
+      "registryRow": 3,
+      "registryName": "д. Петровка – г. Пермь",
+      "sourceRouteId": "S_100 2",
+      "providerName": "100, д.Петровка - ул. милиционера Власова",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_100%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-100-outbound",
+        "regional-100-inbound"
+      ],
+      "rawFile": "regional-source/100.json"
+    },
+    {
+      "ref": "101",
+      "registryRegistrationNumber": "130п",
+      "registryRow": 4,
+      "registryName": "д. Большая Мось - г. Пермь",
+      "sourceRouteId": "S_101 2",
+      "providerName": "101, д. Большая Мось - АВ г. Пермь -",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_101%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-101-outbound",
+        "regional-101-inbound"
+      ],
+      "rawFile": "regional-source/101.json"
+    },
+    {
+      "ref": "102",
+      "registryRegistrationNumber": "131п",
+      "registryRow": 5,
+      "registryName": "Ласьва – Новоселы - Пермь",
+      "sourceRouteId": "S_102 2",
+      "providerName": "102, г. Пермь (Автовокзал г. Пермь) – д. Новоселы –п. Ласьва",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_102%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-102-outbound",
+        "regional-102-inbound"
+      ],
+      "rawFile": "regional-source/102.json"
+    },
+    {
+      "ref": "103",
+      "registryRegistrationNumber": "1п",
+      "registryRow": 6,
+      "registryName": "г. Пермь - п. Шемети (сезонный)",
+      "sourceRouteId": "S_103 2",
+      "providerName": "103, г. Пермь – п. Шемети",
+      "seasonal": true,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_103%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-103-outbound",
+        "regional-103-inbound"
+      ],
+      "rawFile": "regional-source/103.json"
+    },
+    {
+      "ref": "104",
+      "registryRegistrationNumber": "43п",
+      "registryRow": 7,
+      "registryName": "АВ г. Пермь – с. Гамово",
+      "sourceRouteId": "S_104 2",
+      "providerName": "104, г. Пермь - с. Гамово",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_104%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-104-outbound",
+        "regional-104-inbound"
+      ],
+      "rawFile": "regional-source/104.json"
+    },
+    {
+      "ref": "106",
+      "registryRegistrationNumber": "68п",
+      "registryRow": 8,
+      "registryName": "д. Кондратово – г. Пермь",
+      "sourceRouteId": "S_106 2",
+      "providerName": "106, г. Пермь - д. Кондратово",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_106%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-106-outbound",
+        "regional-106-inbound"
+      ],
+      "rawFile": "regional-source/106.json"
+    },
+    {
+      "ref": "108",
+      "registryRegistrationNumber": "133п",
+      "registryRow": 9,
+      "registryName": "АВ г. Пермь – Аэропорт Большое Савино",
+      "sourceRouteId": "S_108 2",
+      "providerName": "108, АВ г. Пермь - Аэропорт Большое Савино",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_108%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-108-outbound",
+        "regional-108-inbound"
+      ],
+      "rawFile": "regional-source/108.json"
+    },
+    {
+      "ref": "109",
+      "registryRegistrationNumber": "48п",
+      "registryRow": 10,
+      "registryName": "с. Култаево - г. Пермь",
+      "sourceRouteId": "S_109 2",
+      "providerName": "109, г. Пермь -  с. Култаево",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_109%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-109-outbound",
+        "regional-109-inbound"
+      ],
+      "rawFile": "regional-source/109.json"
+    },
+    {
+      "ref": "115",
+      "registryRegistrationNumber": "35п",
+      "registryRow": 13,
+      "registryName": "г. Пермь – п. Сокол",
+      "sourceRouteId": "S_115 2",
+      "providerName": "115, п. Сокол - г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_115%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-115-outbound",
+        "regional-115-inbound"
+      ],
+      "rawFile": "regional-source/115.json"
+    },
+    {
+      "ref": "116",
+      "registryRegistrationNumber": "54п",
+      "registryRow": 14,
+      "registryName": "г.Пермь-с.Старые Ляды",
+      "sourceRouteId": "S_116 2",
+      "providerName": "116, г. Пермь - с. Старые Ляды",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_116%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-116-outbound",
+        "regional-116-inbound"
+      ],
+      "rawFile": "regional-source/116.json"
+    },
+    {
+      "ref": "118",
+      "registryRegistrationNumber": "77п",
+      "registryRow": 16,
+      "registryName": "г. Пермь - с. Троица",
+      "sourceRouteId": "S_118 2",
+      "providerName": "118, г. Пермь - с. Троица",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_118%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-118-outbound",
+        "regional-118-inbound"
+      ],
+      "rawFile": "regional-source/118.json"
+    },
+    {
+      "ref": "120",
+      "registryRegistrationNumber": "18п",
+      "registryRow": 18,
+      "registryName": "ЖК Медовый – г. Пермь",
+      "sourceRouteId": "S_120 2",
+      "providerName": "120, ЖК Медовый – г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_120%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-120-outbound",
+        "regional-120-inbound"
+      ],
+      "rawFile": "regional-source/120.json"
+    },
+    {
+      "ref": "150",
+      "registryRegistrationNumber": "115п",
+      "registryRow": 23,
+      "registryName": "д. Конец Бор – АВ г. Краснокамск – АВ г. Пермь",
+      "sourceRouteId": "S_150 2",
+      "providerName": "150, Конец Бор г. Краснокамск - г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_150%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-150-outbound",
+        "regional-150-inbound"
+      ],
+      "rawFile": "regional-source/150.json"
+    },
+    {
+      "ref": "153",
+      "registryRegistrationNumber": "89п",
+      "registryRow": 24,
+      "registryName": "п. Дивья - Автовокзал г. Пермь, ч/з п. Полазна",
+      "sourceRouteId": "S_153 2",
+      "providerName": "153, п. Дивья - Автовокзал г. Пермь, ч/з п. Полазна",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_153%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-153-outbound",
+        "regional-153-inbound"
+      ],
+      "rawFile": "regional-source/153.json"
+    },
+    {
+      "ref": "169",
+      "registryRegistrationNumber": "47п",
+      "registryRow": 26,
+      "registryName": "г. Пермь - с. Нижние Муллы",
+      "sourceRouteId": "S_169 2",
+      "providerName": "169, г. Пермь - с. Нижние Муллы",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_169%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-169-outbound",
+        "regional-169-inbound"
+      ],
+      "rawFile": "regional-source/169.json"
+    },
+    {
+      "ref": "175",
+      "registryRegistrationNumber": "6п",
+      "registryRow": 28,
+      "registryName": "п. Полазна – г. Пермь",
+      "sourceRouteId": "S_175 2",
+      "providerName": "175, г. Пермь - п. Полазна",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_175%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-175-outbound",
+        "regional-175-inbound"
+      ],
+      "rawFile": "regional-source/175.json"
+    },
+    {
+      "ref": "205",
+      "registryRegistrationNumber": "86п",
+      "registryRow": 30,
+      "registryName": "пл. Гознака г. Краснокамск – ст. Курья",
+      "sourceRouteId": "S_205 2",
+      "providerName": "205, пл. Гознака г. Краснокамск - ст. Курья",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_205%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-205-outbound",
+        "regional-205-inbound"
+      ],
+      "rawFile": "regional-source/205.json"
+    },
+    {
+      "ref": "206",
+      "registryRegistrationNumber": "70п",
+      "registryRow": 31,
+      "registryName": "АВ г. Краснокамск – АВ г. Пермь",
+      "sourceRouteId": "S_206 2",
+      "providerName": "206, г. Краснокамск АВ  -  пл. Гознака -  г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_206%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-206-outbound",
+        "regional-206-inbound"
+      ],
+      "rawFile": "regional-source/206.json"
+    },
+    {
+      "ref": "237",
+      "registryRegistrationNumber": "104п",
+      "registryRow": 33,
+      "registryName": "г. Пермь (ст. Лодочная) – кооп. «Алешиха» (сезонный)",
+      "sourceRouteId": "S_237 2",
+      "providerName": "237, г. Пермь (ст. Лодочная) - кооп. «Алешиха» (сезонный)",
+      "seasonal": true,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_237%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-237-outbound",
+        "regional-237-inbound"
+      ],
+      "rawFile": "regional-source/237.json"
+    },
+    {
+      "ref": "340",
+      "registryRegistrationNumber": "44п",
+      "registryRow": 39,
+      "registryName": "г. Пермь – с. Хохловка",
+      "sourceRouteId": "S_340 2",
+      "providerName": "340, г. Пермь - с. Хохловка (сезонный)",
+      "seasonal": true,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_340%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-340-outbound",
+        "regional-340-inbound"
+      ],
+      "rawFile": "regional-source/340.json"
+    },
+    {
+      "ref": "374",
+      "registryRegistrationNumber": "42п",
+      "registryRow": 42,
+      "registryName": "г. Пермь – д. Ключики – п. Юго-Камский (сезонный с 01 мая)",
+      "sourceRouteId": "S_374 2",
+      "providerName": "374, г. Пермь - д. Ключики - п. Юго-Камский (сезонный)",
+      "seasonal": true,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_374%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-374-outbound",
+        "regional-374-inbound"
+      ],
+      "rawFile": "regional-source/374.json"
+    },
+    {
+      "ref": "403",
+      "registryRegistrationNumber": "96п",
+      "registryRow": 44,
+      "registryName": "д. Усть-Тары - г. Пермь",
+      "sourceRouteId": "S_403 2",
+      "providerName": "403, г.Пермь-д.Усть-Тары",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_403%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-403-outbound",
+        "regional-403-inbound"
+      ],
+      "rawFile": "regional-source/403.json"
+    },
+    {
+      "ref": "405",
+      "registryRegistrationNumber": "105п",
+      "registryRow": 45,
+      "registryName": "г. Пермь – кооп. «Алешиха» (сезонный)",
+      "sourceRouteId": "S_405 2",
+      "providerName": "405, г. Пермь - кооп. «Алешиха» (сезонный)",
+      "seasonal": true,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_405%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-405-outbound",
+        "regional-405-inbound"
+      ],
+      "rawFile": "regional-source/405.json"
+    },
+    {
+      "ref": "431",
+      "registryRegistrationNumber": "40п",
+      "registryRow": 46,
+      "registryName": "г. Пермь – п. Юго-Камский",
+      "sourceRouteId": "S_431 2",
+      "providerName": "431, г. Пермь - п. Юго-Камский",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_431%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-431-outbound",
+        "regional-431-inbound"
+      ],
+      "rawFile": "regional-source/431.json"
+    },
+    {
+      "ref": "461",
+      "registryRegistrationNumber": "46п",
+      "registryRow": 50,
+      "registryName": "Подстанция Малиновская - г. Пермь",
+      "sourceRouteId": "S_461 2",
+      "providerName": "461, г. Пермь – Подстанция Малиновская",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_461%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-461-outbound",
+        "regional-461-inbound"
+      ],
+      "rawFile": "regional-source/461.json"
+    },
+    {
+      "ref": "485",
+      "registryRegistrationNumber": "108п",
+      "registryRow": 51,
+      "registryName": "г. Пермь – д. Жебреи",
+      "sourceRouteId": "S_485 2",
+      "providerName": "485, г. Пермь – д. Жебреи",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_485%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-485-outbound",
+        "regional-485-inbound"
+      ],
+      "rawFile": "regional-source/485.json"
+    },
+    {
+      "ref": "522",
+      "registryRegistrationNumber": "90п",
+      "registryRow": 54,
+      "registryName": "г. Краснокамск – п. Оверята – г. Пермь",
+      "sourceRouteId": "S_522 2",
+      "providerName": "522, г. Краснокамск – п. Оверята – г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_522%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-522-outbound",
+        "regional-522-inbound"
+      ],
+      "rawFile": "regional-source/522.json"
+    },
+    {
+      "ref": "530",
+      "registryRegistrationNumber": "82п",
+      "registryRow": 57,
+      "registryName": "г. Добрянка- г. Пермь",
+      "sourceRouteId": "S_530 2",
+      "providerName": "530, Пермь-Добрянка",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_530%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-530-outbound",
+        "regional-530-inbound"
+      ],
+      "rawFile": "regional-source/530.json"
+    },
+    {
+      "ref": "532",
+      "registryRegistrationNumber": "45п",
+      "registryRow": 59,
+      "registryName": "г. Нытва - г. Пермь",
+      "sourceRouteId": "S_532 2",
+      "providerName": "532, г. Пермь – г. Нытва",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_532%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-532-outbound",
+        "regional-532-inbound"
+      ],
+      "rawFile": "regional-source/532.json"
+    },
+    {
+      "ref": "543",
+      "registryRegistrationNumber": "87п",
+      "registryRow": 60,
+      "registryName": "ст. Чайковская – г. Пермь",
+      "sourceRouteId": "S_543 2",
+      "providerName": "543, ст. Чайковская – г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_543%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-543-outbound",
+        "regional-543-inbound"
+      ],
+      "rawFile": "regional-source/543.json"
+    },
+    {
+      "ref": "733",
+      "registryRegistrationNumber": "116п",
+      "registryRow": 111,
+      "registryName": "г. Пермь - д. Берег Камы (с/п Юго-Камский) сезонный с 01 мая по 31 октября",
+      "sourceRouteId": "S_733 2",
+      "providerName": "733, г. Пермь – д. Берег Камы (с/п Юго-Камский)",
+      "seasonal": true,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_733%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-733-outbound",
+        "regional-733-inbound"
+      ],
+      "rawFile": "regional-source/733.json"
+    },
+    {
+      "ref": "555",
+      "registryRegistrationNumber": "55",
+      "registryRow": 62,
+      "registryName": "с. Березовка - г. Пермь",
+      "sourceRouteId": "S_555 2",
+      "providerName": "555, с. Березовка - г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_555%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-555-outbound",
+        "regional-555-inbound"
+      ],
+      "rawFile": "regional-source/555.json"
+    },
+    {
+      "ref": "609",
+      "registryRegistrationNumber": "57",
+      "registryRow": 65,
+      "registryName": "г. Пермь – п. Пожва",
+      "sourceRouteId": "S_609 2",
+      "providerName": "609, г. Пермь - п. Пожва (через г. Краснокамск,г. Кудымкар)",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_609%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-609-outbound",
+        "regional-609-inbound"
+      ],
+      "rawFile": "regional-source/609.json"
+    },
+    {
+      "ref": "621",
+      "registryRegistrationNumber": "73",
+      "registryRow": 68,
+      "registryName": "д. Агафонково – п. Суксун – г. Пермь",
+      "sourceRouteId": "S_621 2",
+      "providerName": "621, д. Агафонково – п. Суксун – г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_621%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-621-outbound",
+        "regional-621-inbound"
+      ],
+      "rawFile": "regional-source/621.json"
+    },
+    {
+      "ref": "648",
+      "registryRegistrationNumber": "17",
+      "registryRow": 74,
+      "registryName": "г. Оса - г. Пермь, ч/з п. Юго-Камский",
+      "sourceRouteId": "S_648 2",
+      "providerName": "648, г. Оса - г.Пермь (ч/з Юго-Камский)",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_648%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-648-outbound",
+        "regional-648-inbound"
+      ],
+      "rawFile": "regional-source/648.json"
+    },
+    {
+      "ref": "649",
+      "registryRegistrationNumber": "39",
+      "registryRow": 75,
+      "registryName": "п. Теплая Гора (п. Промысла) – г. Пермь",
+      "sourceRouteId": "S_649 2",
+      "providerName": "649, г. Пермь - п. Теплая Гора (п. Промысла)",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_649%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-649-outbound",
+        "regional-649-inbound"
+      ],
+      "rawFile": "regional-source/649.json"
+    },
+    {
+      "ref": "657",
+      "registryRegistrationNumber": "51",
+      "registryRow": 76,
+      "registryName": "с. Соколово – г. Пермь",
+      "sourceRouteId": "S_657 714",
+      "providerName": "657, Соколово-Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_657%20714",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-657-outbound",
+        "regional-657-inbound"
+      ],
+      "rawFile": "regional-source/657.json"
+    },
+    {
+      "ref": "663",
+      "registryRegistrationNumber": "69",
+      "registryRow": 79,
+      "registryName": "г. Пермь – с. Калинино",
+      "sourceRouteId": "S_663 2",
+      "providerName": "663, г. Пермь - с. Калинино",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_663%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-663-outbound",
+        "regional-663-inbound"
+      ],
+      "rawFile": "regional-source/663.json"
+    },
+    {
+      "ref": "675",
+      "registryRegistrationNumber": "10",
+      "registryRow": 83,
+      "registryName": "г. Кунгур - г. Пермь",
+      "sourceRouteId": "S_675 2",
+      "providerName": "675, г. Пермь -  г. Кунгур",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_675%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-675-outbound",
+        "regional-675-inbound"
+      ],
+      "rawFile": "regional-source/675.json"
+    },
+    {
+      "ref": "677",
+      "registryRegistrationNumber": "8",
+      "registryRow": 85,
+      "registryName": "г. Пермь – г. Лысьва, ч/з г. Кунгур, с. Березовка",
+      "sourceRouteId": "S_677 2",
+      "providerName": "677, г. Пермь - г. Лысьва ч/з г. Кунгур,с. Березовка",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_677%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-677-outbound",
+        "regional-677-inbound"
+      ],
+      "rawFile": "regional-source/677.json"
+    },
+    {
+      "ref": "678",
+      "registryRegistrationNumber": "82",
+      "registryRow": 86,
+      "registryName": "г. Пермь – г. Березники (Новожилово) – г. Александровск",
+      "sourceRouteId": "S_678 2",
+      "providerName": "678, Пермь:г.Березники (Новожилово):г.Александровск",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_678%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-678-outbound",
+        "regional-678-inbound"
+      ],
+      "rawFile": "regional-source/678.json"
+    },
+    {
+      "ref": "679",
+      "registryRegistrationNumber": "52",
+      "registryRow": 87,
+      "registryName": "г. Пермь –  п. Майкор",
+      "sourceRouteId": "S_679 2",
+      "providerName": "679, г. Пермь - п. Майкор",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_679%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-679-outbound",
+        "regional-679-inbound"
+      ],
+      "rawFile": "regional-source/679.json"
+    },
+    {
+      "ref": "680",
+      "registryRegistrationNumber": "91",
+      "registryRow": 88,
+      "registryName": "г. Чусовой – г. Пермь",
+      "sourceRouteId": "S_680 2",
+      "providerName": "680,  г.Чусовой - г.Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_680%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-680-outbound",
+        "regional-680-inbound"
+      ],
+      "rawFile": "regional-source/680.json"
+    },
+    {
+      "ref": "681",
+      "registryRegistrationNumber": "36",
+      "registryRow": 89,
+      "registryName": "г. Верещагино – г. Пермь, ч/з г. Очер",
+      "sourceRouteId": "S_681 714",
+      "providerName": "681, Верещагино-Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_681%20714",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-681-outbound",
+        "regional-681-inbound"
+      ],
+      "rawFile": "regional-source/681.json"
+    },
+    {
+      "ref": "686",
+      "registryRegistrationNumber": "6",
+      "registryRow": 90,
+      "registryName": "п. Октябрьский – г. Пермь",
+      "sourceRouteId": "S_686 2",
+      "providerName": "686, п. Октябрьский – г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_686%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-686-outbound",
+        "regional-686-inbound"
+      ],
+      "rawFile": "regional-source/686.json"
+    },
+    {
+      "ref": "688",
+      "registryRegistrationNumber": "18",
+      "registryRow": 91,
+      "registryName": "г. Пермь – г. Оса, ч/з п. Кукуштан",
+      "sourceRouteId": "S_688 2",
+      "providerName": "688, г. Пермь - г. Оса ч/з Кукуштан",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_688%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-688-outbound",
+        "regional-688-inbound"
+      ],
+      "rawFile": "regional-source/688.json"
+    },
+    {
+      "ref": "689",
+      "registryRegistrationNumber": "43",
+      "registryRow": 92,
+      "registryName": "г. Пермь-г. Чайковский, ч/з Юго-Камский, г. Оса, с. Елово",
+      "sourceRouteId": "S_689 2",
+      "providerName": "689, г.Пермь-г.Чайковский (ч/з Юго-Камский)",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_689%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-689-outbound",
+        "regional-689-inbound"
+      ],
+      "rawFile": "regional-source/689.json"
+    },
+    {
+      "ref": "702",
+      "registryRegistrationNumber": "21",
+      "registryRow": 99,
+      "registryName": "п. Ильинский - г. Пермь",
+      "sourceRouteId": "S_702 2",
+      "providerName": "702, п. Ильинский - г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_702%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-702-outbound",
+        "regional-702-inbound"
+      ],
+      "rawFile": "regional-source/702.json"
+    },
+    {
+      "ref": "718",
+      "registryRegistrationNumber": "83",
+      "registryRow": 107,
+      "registryName": "Пермь - курорт «Ключи»",
+      "sourceRouteId": "S_718 2",
+      "providerName": "718, «г.Пермь-Курорт «Ключи»",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_718%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-718-outbound",
+        "regional-718-inbound"
+      ],
+      "rawFile": "regional-source/718.json"
+    },
+    {
+      "ref": "736",
+      "registryRegistrationNumber": "31",
+      "registryRow": 112,
+      "registryName": "г. Пермь - с. Коса",
+      "sourceRouteId": "S_31  2",
+      "providerName": "736, г. Пермь - с. Коса",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_31%20%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-736-outbound",
+        "regional-736-inbound"
+      ],
+      "rawFile": "regional-source/736.json"
+    },
+    {
+      "ref": "749",
+      "registryRegistrationNumber": "56",
+      "registryRow": 116,
+      "registryName": "г. Соликамск - г. Пермь",
+      "sourceRouteId": "S_749 2",
+      "providerName": "749, г. Соликамск - г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_749%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-749-outbound",
+        "regional-749-inbound"
+      ],
+      "rawFile": "regional-source/749.json"
+    },
+    {
+      "ref": "752",
+      "registryRegistrationNumber": "32",
+      "registryRow": 117,
+      "registryName": "г. Красновишерск - г. Пермь",
+      "sourceRouteId": "S_752 2",
+      "providerName": "752, Пермь-г.Красновишерск",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_752%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-752-outbound",
+        "regional-752-inbound"
+      ],
+      "rawFile": "regional-source/752.json"
+    },
+    {
+      "ref": "757",
+      "registryRegistrationNumber": "122",
+      "registryRow": 118,
+      "registryName": "г. Горнозаводск - г. Пермь, ч/з г. Чусовой",
+      "sourceRouteId": "S_757 2",
+      "providerName": "757, г. Горнозаводск -  г. Пермь, ч/з г. Чусовой,п. Полазна",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_757%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-757-outbound",
+        "regional-757-inbound"
+      ],
+      "rawFile": "regional-source/757.json"
+    },
+    {
+      "ref": "761",
+      "registryRegistrationNumber": "11",
+      "registryRow": 119,
+      "registryName": "г. Пермь - Кыласово - Ергач",
+      "sourceRouteId": "S_761 2",
+      "providerName": "761, г. Пермь – Кыласово - Ергач",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_761%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-761-outbound",
+        "regional-761-inbound"
+      ],
+      "rawFile": "regional-source/761.json"
+    },
+    {
+      "ref": "771",
+      "registryRegistrationNumber": "101",
+      "registryRow": 123,
+      "registryName": "г. Пермь - г. Кизел, ч/з Чусовой",
+      "sourceRouteId": "S_771 2",
+      "providerName": "771, г. Пермь – г. Кизел, ч/з Чусовой",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_771%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-771-outbound",
+        "regional-771-inbound"
+      ],
+      "rawFile": "regional-source/771.json"
+    },
+    {
+      "ref": "773",
+      "registryRegistrationNumber": "24",
+      "registryRow": 124,
+      "registryName": "г. Чермоз - г. Пермь",
+      "sourceRouteId": "S_773 2",
+      "providerName": "773, Пермь-г.Чермоз",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_773%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-773-outbound",
+        "regional-773-inbound"
+      ],
+      "rawFile": "regional-source/773.json"
+    },
+    {
+      "ref": "786",
+      "registryRegistrationNumber": "29",
+      "registryRow": 128,
+      "registryName": "г. Пермь - г. Ныроб",
+      "sourceRouteId": "S_786 2",
+      "providerName": "786, г. Пермь - г. Ныроб",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_786%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-786-outbound",
+        "regional-786-inbound"
+      ],
+      "rawFile": "regional-source/786.json"
+    },
+    {
+      "ref": "793",
+      "registryRegistrationNumber": "50",
+      "registryRow": 129,
+      "registryName": "г. Пермь - г. Куеда, ч/з Юго-Камский",
+      "sourceRouteId": "S_793 2",
+      "providerName": "793, Пермь-Куеда ч/з Юго-Камский",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_793%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-793-outbound",
+        "regional-793-inbound"
+      ],
+      "rawFile": "regional-source/793.json"
+    },
+    {
+      "ref": "794",
+      "registryRegistrationNumber": "37",
+      "registryRow": 130,
+      "registryName": "г. Пермь - г. Гремячинск (через Чусовой)",
+      "sourceRouteId": "S_794 2",
+      "providerName": "794, г. Пермь - г. Гремячинск",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_794%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-794-outbound",
+        "regional-794-inbound"
+      ],
+      "rawFile": "regional-source/794.json"
+    },
+    {
+      "ref": "795",
+      "registryRegistrationNumber": "47",
+      "registryRow": 131,
+      "registryName": "г. Пермь - г. Губаха, ч/з г. Чусовой",
+      "sourceRouteId": "S_795 2",
+      "providerName": "795, Пермь-г.Губаха",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_795%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-795-outbound",
+        "regional-795-inbound"
+      ],
+      "rawFile": "regional-source/795.json"
+    },
+    {
+      "ref": "796",
+      "registryRegistrationNumber": "111",
+      "registryRow": 132,
+      "registryName": "г. Пермь – г. Лысьва, ч/з г. Чусовой",
+      "sourceRouteId": "S_796 2",
+      "providerName": "796, г. Пермь - г. Лысьва ч/з г. Чусовой",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_796%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-796-outbound",
+        "regional-796-inbound"
+      ],
+      "rawFile": "regional-source/796.json"
+    },
+    {
+      "ref": "801",
+      "registryRegistrationNumber": "48",
+      "registryRow": 133,
+      "registryName": "п. Куеда – г. Пермь, ч/з п. Кукуштан, с. Барда, г. Чернушка",
+      "sourceRouteId": "S_801 2",
+      "providerName": "801, г. Пермь - п. Куеда,ч/з Кукуштан,с. Барда,г. Чернушка",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_801%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-801-outbound",
+        "regional-801-inbound"
+      ],
+      "rawFile": "regional-source/801.json"
+    },
+    {
+      "ref": "802",
+      "registryRegistrationNumber": "112",
+      "registryRow": 134,
+      "registryName": "г. Пермь - г. Соликамск",
+      "sourceRouteId": "S_802 2",
+      "providerName": "802, г. Соликамск - г. Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_802%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-802-outbound",
+        "regional-802-inbound"
+      ],
+      "rawFile": "regional-source/802.json"
+    },
+    {
+      "ref": "803",
+      "registryRegistrationNumber": "38",
+      "registryRow": 135,
+      "registryName": "г. Чайковский – г. Пермь, через п. Кукуштан",
+      "sourceRouteId": "S_803 2",
+      "providerName": "803, г. Пермь - г. Чайковский,ч/з п. Кукуштан,г. Оса,с. Елово",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_803%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-803-outbound",
+        "regional-803-inbound"
+      ],
+      "rawFile": "regional-source/803.json"
+    },
+    {
+      "ref": "804",
+      "registryRegistrationNumber": "90",
+      "registryRow": 136,
+      "registryName": "с. Нердва – г. Пермь",
+      "sourceRouteId": "S_804 714",
+      "providerName": "804, Нердва - Пермь",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_804%20714",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-804-outbound",
+        "regional-804-inbound"
+      ],
+      "rawFile": "regional-source/804.json"
+    },
+    {
+      "ref": "806",
+      "registryRegistrationNumber": "60",
+      "registryRow": 137,
+      "registryName": "г. Березники – г. Пермь",
+      "sourceRouteId": "S_806 2",
+      "providerName": "806, г.Пермь-г.Березники",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_806%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-806-outbound",
+        "regional-806-inbound"
+      ],
+      "rawFile": "regional-source/806.json"
+    },
+    {
+      "ref": "810",
+      "registryRegistrationNumber": "93",
+      "registryRow": 139,
+      "registryName": "п. Уральский – г. Пермь",
+      "sourceRouteId": "S_810 2",
+      "providerName": "810, Пермь - Уральский",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_810%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-810-outbound",
+        "regional-810-inbound"
+      ],
+      "rawFile": "regional-source/810.json"
+    },
+    {
+      "ref": "812",
+      "registryRegistrationNumber": "46",
+      "registryRow": 140,
+      "registryName": "с. Ашап – г. Пермь, ч/з с. Ленск, г. Кунгур",
+      "sourceRouteId": "S_812 2",
+      "providerName": "812, г. Пермь - с. Ашап,ч/з г. Кунгур,с. Ленск",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_812%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-812-outbound",
+        "regional-812-inbound"
+      ],
+      "rawFile": "regional-source/812.json"
+    },
+    {
+      "ref": "822",
+      "registryRegistrationNumber": "4",
+      "registryRow": 143,
+      "registryName": "Аэропорт г. Пермь - г. Усолье (через г. Березники)",
+      "sourceRouteId": "S_822 2",
+      "providerName": "822, Аэропорт г. Пермь - г. Усолье (через г. Березники)",
+      "seasonal": false,
+      "sourceUrl": "https://map.bus-transport.ru/",
+      "sourceDataUrl": "https://map.bus-transport.ru/json/full-route/17.11.2026/S_822%202",
+      "serviceDate": "2026-11-17",
+      "mapRouteIds": [
+        "regional-822-outbound",
+        "regional-822-inbound"
+      ],
+      "rawFile": "regional-source/822.json"
+    }
+  ],
+  "missingRoutes": [
+    {
+      "ref": "246",
+      "searchUrl": "https://m.bus-transport.ru/search/?q=246",
+      "reason": "Поиск источника не вернул маршрут. Геометрия не выдумывается.",
+      "searchResultFile": "../../files/transport-source-html/search-246.html"
+    },
+    {
+      "ref": "748",
+      "searchUrl": "https://m.bus-transport.ru/search/?q=748",
+      "reason": "Поиск источника не вернул маршрут. Маршрут 747 не считается автоматически маршрутом 748.",
+      "searchResultFile": "../../files/transport-source-html/search-748.html"
+    }
+  ],
+  "regionalBatch": {
+    "fetchedAt": "2026-11-18T01:03:45.769Z",
+    "routeCount": 69
+  }
+}
